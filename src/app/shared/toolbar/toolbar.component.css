@@ -1,0 +1,51 @@
+.toolbar {
+  padding: 10px 0 10px 0;
+  width: 100%;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  display: flex;
+  align-items: center;
+  align-items: center;
+}
+
+.title {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  align-items: center;
+}
+.user-content {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 15px;
+}
+
+.btn-logout {
+  cursor: pointer;
+  border: 0;
+  padding: 8px;
+  font-size: 12px;
+  background-color: #e1e1e1;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.btn-logout:hover {
+  background-color: #e5e5e5;
+  transition: 0.3s;
+}
+
+.btn-logout:active {
+  background-color: #c3c3c3;
+  transition: 0.3s;
+}
+
+.circle-green {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #19be19;
+  margin-right: 10px;
+}

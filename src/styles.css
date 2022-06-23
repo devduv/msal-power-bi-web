@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.primary-color {
+  color: #ec9700;
+}
+
+.bg-primary-color {
+  background-color: #ec9700;
+}
+
+.secondary-color {
+  color: #fdc006;
+}
+
+.bg-secondary-color {
+  background-color: #fdc006;
+}
+
+.tertiary-color {
+  color: #ffdc50;
+}
+
+.bg-tertiary-color {
+  background-color: #ffdc50;
+}
+
+.fc-black {
+  color: black;
+}
+
+.fc-white {
+  color: white;
+}
+
+.height-100vh {
+  height: 100vh;
+}
+
+
+
+.center-content {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }

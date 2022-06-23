@@ -1,0 +1,18 @@
+<div class="toolbar">
+  <div class="title">
+    <div style="margin-left: 10px">
+      <img width="30" src="./assets/power-bi-logo.png" />
+    </div>
+    <div>Power BI System</div>
+  </div>
+  <div class="user-content">
+    <div class="circle-green"></div>
+    <div>
+      {{ user?.name }}
+    </div>
+
+    <div>
+      <button class="btn-logout" (click)="logout()">Cerrar Sesión</button>
+    </div>
+  </div>
+</div>

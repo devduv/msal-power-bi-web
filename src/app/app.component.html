@@ -1,0 +1,7 @@
+<app-toolbar
+  [user]="this.getName()"
+  (logoutEmitter)="logout()"
+  *ngIf="isLoggedIn()"
+></app-toolbar>
+
+<router-outlet></router-outlet>
